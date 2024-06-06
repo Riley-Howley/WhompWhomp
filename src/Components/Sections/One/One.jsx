@@ -1,5 +1,4 @@
 import './One.css';
-import logo from '../../../Assets/images/logo.png';
 import { ContactButton } from '../../Button/ContactButton';
 
 export const One = () => {
@@ -7,7 +6,7 @@ export const One = () => {
         <section id="section-home" className="section home">
             <div className="text-zone">
                 <h1>Hi, <br /> I'm   
-                    <img src={logo} alt="N" />icola,<br /> web developer
+                    Nicola,<br /> web developer
                 </h1>
                 <p className="gray-text">Front End Developer / Full-Time Student</p>
                 <br />

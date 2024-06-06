@@ -1,5 +1,4 @@
 import './Sidebar.css';
-import logo from '../../Assets/images/logo.png';
 
 export const Sidebar = ({isOpen, setIsOpen}) => {
     const toggleSidebar = () => {
@@ -11,7 +10,6 @@ export const Sidebar = ({isOpen, setIsOpen}) => {
             <div className="aside-wrapper">
             <div className="logo-section">
                 <a className="logo" rel="home" href="#">
-                <img src={logo} alt="logo" />
                 <span>Nicola</span>
                 </a>
                 <span>Web Developer</span>
