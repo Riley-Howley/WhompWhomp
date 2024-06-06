@@ -1,0 +1,31 @@
+#section-about {
+    min-height: 60vh;
+    width: 100%;
+    padding-left: 1.5rem;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    position: relative;
+}
+
+.divider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-zone3 {
+    width: 50%;
+}
+
+.text-zone3 p {
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+}
+
+.tech {
+    text-decoration: none;
+    color: #08fdd8;
+}
+

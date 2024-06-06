@@ -1,0 +1,29 @@
+#sound {
+    padding: 7px;
+    background-color: #1b1b1b;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.sound-cloud {
+    font-size: 1.2rem;
+    margin: 7px;
+    color: #f50057;
+}
+
+.on-off {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#off {
+    color: #f50057;
+}
+
+#on {
+    display: none;
+    color: #08fdd8;
+}
+

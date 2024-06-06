@@ -1,0 +1,26 @@
+header {
+    width: 95%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.btns-container {
+    z-index: 2;
+}
+
+.btns-container .fas {
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #181818;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btns-container .fas:nth-child(2) {
+    display: none;
+}
